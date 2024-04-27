@@ -35,7 +35,7 @@ function Mynavbar() {
     return (
         <Navbar expand="lg" className="bg-dark sticky-top" variant="dark">
             <Container fluid>
-                <Navbar.Brand>Pappu Store</Navbar.Brand>
+                <Navbar.Brand>E-Store</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>

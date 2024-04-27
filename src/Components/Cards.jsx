@@ -19,7 +19,8 @@ export default function Cards(props) {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    axios.get('http://localhost:5000/product')
+    // axios.get('http://localhost:5000/product') //offline data
+      axios.get('https://fakestoreapi.com/products') //online data
       .then((res) => {
         setCardData(res.data);
       })
